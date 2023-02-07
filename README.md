@@ -61,7 +61,15 @@ para que 'privado.txt- y 'privada' sean ignorados por git.
 
 --------------------------------------------------------------------------------------------------
 
-git status ---> Para confirmar que los archivo fueron ignorados.
+git status / git add . / git commit -m 'mensaje / git push
+
+--------------------------------------------------------------------------------------------------
+
+touch 1.txt ---> Creo el archivo.
+
+--------------------------------------------------------------------------------------------------
+
+git add . / git commit -m  'mensaje'
 
 --------------------------------------------------------------------------------------------------
 
@@ -69,5 +77,54 @@ git branch v0.2 / git checkout v0.2 / git branch ---> Creo la nueva rama / Me po
 / verifico que ahora estoy en 'v0.2' y no en 'main'.
 
 --------------------------------------------------------------------------------------------------
+
+touch 1.txt / touch 2.txt ---> Creo los archivos.
+
+--------------------------------------------------------------------------------------------------
+
+git add . / git commit -m  'mensaje' / git checkout main / git status / git push
+
+--------------------------------------------------------------------------------------------------
+
+git branch --merged
+
+* main
+
+git branch --no-merged
+
+  v0.2
+
+--------------------------------------------------------------------------------------------------
+
+git merge v0.2 ---> Mergea el branch v0.2 con el main
+
+Auto-merging 1.txt
+CONFLICT (content): Merge conflict in 1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+--------------------------------------------------------------------------------------------------
+
+nano 1.txt ---> Edito el archivo.
+
+<<<<<<< HEAD
+Hola
+=======                  ---> Hola
+Adios                         Adios   
+>>>>>>> v0.2
+
+--------------------------------------------------------------------------------------------------
+
+git branch --merged
+
+* main
+  v0.2
+
+git branch --no-merged
+ 
+--------------------------------------------------------------------------------------------------
+
+
+ 
+
 
  
