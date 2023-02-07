@@ -106,11 +106,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 nano 1.txt ---> Edito el archivo.
 
-<<<<<<< HEAD
 Hola
-=======                  ---> Hola
-Adios                         Adios   
->>>>>>> v0.2
+Adios
 
 --------------------------------------------------------------------------------------------------
 
