@@ -123,8 +123,42 @@ git branch --no-merged
  
 --------------------------------------------------------------------------------------------------
 
+git log --oneline --decorate --graph --all
 
- 
+* 93b5a6e (HEAD -> main, origin/main) Elimino v0.2
+*   b62f0f0 Soluciono el error
+|\  
+| * 1317ba4 V0.2 1.txt Adios
+| * c50eed9 Agrego v0.2
+* | aaa9df9 Main 1.txt Hola
+|/  
+* 5bf4fa5 Agrego 1.txt
+| * 5df4f35 (origin/v0.2) Agrego 1.txt
+|/  
+* dfcee3c Agrego .gitignore
+* 69b189d commit inicial
+
+--------------------------------------------------------------------------------------------------
+
+NOMBRE - GITHUB
+
+Leandro Cuevas - https://github.com/leandro-cuevas
+
+Ivan Delaparte - https://github.com/ivandelaparte
+
+Armando Quintana - https://github.com/ArmaTQ
+
+Maria Arteaga - https://github.com/maryjse
+
+Camila Calegari - https://github.com/camilacalegari
+
+Franco Formigo - https://github.com/francobenjaminformigo
+
+
+COLABORADOR
+
+Maria Arteaga
+
 
 
  
