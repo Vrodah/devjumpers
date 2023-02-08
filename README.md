@@ -137,24 +137,21 @@ git log --oneline --decorate --graph --all
 
 --------------------------------------------------------------------------------------------------
 
-NOMBRE - GITHUB
 
-Leandro Cuevas - https://github.com/leandro-cuevas
-
-Ivan Delaparte - https://github.com/ivandelaparte
-
-Armando Quintana - https://github.com/ArmaTQ
-
-Maria Arteaga - https://github.com/maryjse
-
-Camila Calegari - https://github.com/camilacalegari
-
-Franco Formigo - https://github.com/francobenjaminformigo
+| NOMBRE | GITHUB|
+| --- | --- |
+| Leandro Cuevas | [Leando Cuevas](https://github.com/leandro-cuevas) |
+| Ivan Delaparte | [Ivan Delaparte](https://github.com/ivandelaparte) |
+| Armando Quintana | [Armando Quintana](https://github.com/ArmaTQ) |
+| Maria Arteaga | [Maria Arteaga](https://github.com/maryjse) |
+| Camila Calegari | [Camila Calegari](https://github.com/camilacalegari) |
+| Franco Formigo | [Franco Formigo](https://github.com/francobenjaminformigo) |
 
 
-COLABORADOR
+| COLABORADOR |
+| --- |
+| Maria Arteaga |
 
-Maria Arteaga
 
 
 
